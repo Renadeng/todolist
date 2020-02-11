@@ -1,0 +1,32 @@
+body{
+
+}
+
+.bigHeader {
+  background-color: green;
+  padding: 3% 15%;
+  color: #fff;
+}
+
+/* Add to do section */
+.addItem {
+  padding: 3% 15%;
+}
+
+.addItemForm {
+  padding-top: 1%;
+}
+
+/* To-do list section */
+.todoList {
+  margin: 2% 15% 3%;
+}
+
+.list-group {
+  padding: 3% 50% 0 0;
+}
+
+.deleteImg {
+  width: 20px;
+  margin-left: 50%;
+}

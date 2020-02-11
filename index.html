@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <!-- CSS file -->
+      <link rel="stylesheet" href="styles.css">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>To-do-list</title>
+  </head>
+  <body>
+    <!-- Big header section -->
+    <div class="bigHeader">
+      <h1 class="bigTitle">To-do List</h1>
+    </div>
+
+    <!-- Add to do item -->
+    <div class="addItem">
+      <h4>Anything else in mind?</h4>
+      <form class="addItemForm" action="index.html" method="post">
+        <input class="newItemBox" type="text" name="" value="" size="50">
+        <button class="btn btn-sm btn-outline-success addItemButton" type="button" name="button">Add To-do</button>
+      </form>
+    </div>
+
+    <!-- To-do-list -->
+    <div class="todoList">
+      <h4>My to-do list</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Daily planning <button type="button" class="btn btn-danger btn-sm float-right btn-delete" name="button">x</button></li>
+        <li class="list-group-item">Meditation <button type="button" class="btn btn-danger btn-sm float-right btn-delete" name="button">x</button></li>
+        <li class="list-group-item">Learn to code <button type="button" class="btn btn-danger btn-sm float-right btn-delete" name="button">x</button></li>
+      </ul>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
